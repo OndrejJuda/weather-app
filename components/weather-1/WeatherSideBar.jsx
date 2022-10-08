@@ -2,7 +2,9 @@ import React from 'react';
 
 const WeatherSideBar = () => {
   return (
-    <div>WeatherSideBar</div>
+    <aside>
+      WeatherSideBar
+    </aside>
   );
 };
 

@@ -1,8 +1,13 @@
 import React from 'react';
+import { MenuSideBar, WeatherSection, WeatherSideBar } from './';
 
 const WeatherApp = () => {
   return (
-    <div>WeatherApp</div>
+    <div className='flex flex-row'>
+      <MenuSideBar />
+      <WeatherSection />
+      <WeatherSideBar />
+    </div>
   );
 };
 

@@ -2,7 +2,9 @@ import React from 'react';
 
 const WeatherSection = () => {
   return (
-    <div>WeatherSection</div>
+    <main className='flex-1'>
+      WeatherSection
+    </main>
   );
 };
 

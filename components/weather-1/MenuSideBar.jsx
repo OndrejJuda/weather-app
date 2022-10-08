@@ -1,8 +1,12 @@
 import React from 'react';
+import { NavBar, SettingsBar } from './';
 
 const MenuSideBar = () => {
   return (
-    <div>MenuSideBar</div>
+    <div className='bg-gray-200 flex flex-col'>
+      <NavBar />
+      <SettingsBar />
+    </div>
   );
 };
 
