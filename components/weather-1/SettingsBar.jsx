@@ -5,8 +5,8 @@ import { RiSettings4Fill } from 'react-icons/ri';
 
 const SettingsBar = () => {
   return (
-    <div className='flex flex-col gap-12 justify-center items-center py-8'>
-      <div className='w-full border-l-8 hover:border-gray-900 flex justify-center items-center'>
+    <div className='flex flex-col gap-8 justify-center items-center py-8'>
+      <div className='w-full border-l-8 hover:border-gray-900 flex justify-center items-center transition-all'>
         <div className='w-10 h-10'>
           <div className='w-[calc(100%-8px)]'>
             <Image
@@ -17,7 +17,7 @@ const SettingsBar = () => {
           </div>
         </div>
       </div>
-      <RiSettings4Fill className='px-4 h-12 w-[calc(100%-8px)] -ml-[8px] text-gray-600 flex justify-center items-center border-l-8 hover:border-gray-900' />
+      <RiSettings4Fill className='px-4 h-12 w-[calc(100%-8px)] -ml-[8px] text-gray-600 flex justify-center items-center border-l-8 hover:border-gray-900 transition-all' />
     </div>
   );
 };
