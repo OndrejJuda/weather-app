@@ -12,7 +12,7 @@ const cities = [
 
 const WeatherSideBar = () => {
   return (
-    <aside className='flex flex-col items-center py-4 px-4 bg-gray-600 bg-opacity-60 gap-4'>
+    <aside className='flex flex-col items-center py-4 px-4 bg-gray-600 bg-opacity-60 gap-4 backdrop-blur-sm'>
       <div className='pb-10 pt-6'>
         <AiOutlineMenu className='w-20 h-20 text-white p-4 rounded-full hover:shadow-md transition' />
       </div>
